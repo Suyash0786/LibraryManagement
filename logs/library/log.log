@@ -1,0 +1,348 @@
+2026-10-16T11:29:19.539+05:30  INFO 14168 --- [library] [main] com.kiet.library.LibraryApplication      : Starting LibraryApplication using Java 25.0.1 with PID 14168 (C:\Users\harsh\OneDrive\Pictures\librarynew\library\target\classes started by harsh in C:\Users\harsh\OneDrive\Pictures\librarynew)
+2026-10-16T11:29:19.547+05:30  INFO 14168 --- [library] [main] com.kiet.library.LibraryApplication      : No active profile set, falling back to 1 default profile: "default"
+2026-10-16T11:29:21.272+05:30  INFO 14168 --- [library] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-10-16T11:29:21.298+05:30  INFO 14168 --- [library] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-16T11:29:21.300+05:30  INFO 14168 --- [library] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-16T11:29:21.397+05:30  INFO 14168 --- [library] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1735 ms
+2026-10-16T11:29:22.002+05:30  WARN 14168 --- [library] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-10-16T11:29:22.024+05:30  INFO 14168 --- [library] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-10-16T11:29:22.048+05:30 ERROR 14168 --- [library] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8083 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8083 or configure this application to listen on another port.
+
+2026-10-16T11:32:32.351+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Starting LibraryApplication using Java 25.0.1 with PID 14940 (C:\Users\harsh\OneDrive\Pictures\librarynew\library\target\classes started by harsh in C:\Users\harsh\OneDrive\Pictures\librarynew)
+2026-10-16T11:32:32.358+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : No active profile set, falling back to 1 default profile: "default"
+2026-10-16T11:32:33.790+05:30  INFO 14940 --- [library] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8084 (http)
+2026-10-16T11:32:33.816+05:30  INFO 14940 --- [library] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-16T11:32:33.817+05:30  INFO 14940 --- [library] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-16T11:32:33.907+05:30  INFO 14940 --- [library] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1449 ms
+2026-10-16T11:32:34.457+05:30  INFO 14940 --- [library] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8084 (http) with context path '/'
+2026-10-16T11:32:34.464+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Started LibraryApplication in 3.003 seconds (process running for 3.716)
+2026-10-16T11:32:34.472+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Library Book Management System Started
+2026-10-16T11:32:34.473+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Loading Book Catalogue...
+2026-10-16T11:32:34.474+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Total number of beans: 147
+2026-10-16T11:32:34.474+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : ========== LIST OF ALL SPRING BEANS ==========
+2026-10-16T11:32:34.475+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2026-10-16T11:32:34.475+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2026-10-16T11:32:34.476+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.context.annotation.internalCommonAnnotationProcessor
+2026-10-16T11:32:34.477+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.context.event.internalEventListenerProcessor
+2026-10-16T11:32:34.477+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.context.event.internalEventListenerFactory
+2026-10-16T11:32:34.478+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: libraryApplication
+2026-10-16T11:32:34.478+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2026-10-16T11:32:34.479+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: bookController
+2026-10-16T11:32:34.479+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: bookService
+2026-10-16T11:32:34.480+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.AutoConfigurationPackages
+2026-10-16T11:32:34.480+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+2026-10-16T11:32:34.481+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: propertySourcesPlaceholderConfigurer
+2026-10-16T11:32:34.481+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.webmvc.autoconfigure.DispatcherServletAutoConfiguration$DispatcherServletConfiguration
+2026-10-16T11:32:34.482+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: dispatcherServlet
+2026-10-16T11:32:34.482+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor
+2026-10-16T11:32:34.483+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.context.internalConfigurationPropertiesBinder
+2026-10-16T11:32:34.483+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.context.properties.BoundConfigurationProperties
+2026-10-16T11:32:34.484+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter
+2026-10-16T11:32:34.484+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: spring.mvc-org.springframework.boot.webmvc.autoconfigure.WebMvcProperties
+2026-10-16T11:32:34.485+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.webmvc.autoconfigure.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration
+2026-10-16T11:32:34.485+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: dispatcherServletRegistration
+2026-10-16T11:32:34.487+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.webmvc.autoconfigure.DispatcherServletAutoConfiguration
+2026-10-16T11:32:34.487+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$ThreadPoolTaskExecutorBuilderConfiguration
+2026-10-16T11:32:34.487+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: threadPoolTaskExecutorBuilder
+2026-10-16T11:32:34.488+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$SimpleAsyncTaskExecutorBuilderConfiguration
+2026-10-16T11:32:34.488+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: simpleAsyncTaskExecutorBuilder
+2026-10-16T11:32:34.488+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$AsyncConfigurerConfiguration
+2026-10-16T11:32:34.488+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: applicationTaskExecutorAsyncConfigurer
+2026-10-16T11:32:34.489+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$TaskExecutorConfiguration
+2026-10-16T11:32:34.489+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: applicationTaskExecutor
+2026-10-16T11:32:34.489+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$BootstrapExecutorConfiguration
+2026-10-16T11:32:34.491+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: bootstrapExecutorAliasPostProcessor
+2026-10-16T11:32:34.491+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration
+2026-10-16T11:32:34.491+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties
+2026-10-16T11:32:34.492+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.webmvc.autoconfigure.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration
+2026-10-16T11:32:34.493+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: error
+2026-10-16T11:32:34.493+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: beanNameViewResolver
+2026-10-16T11:32:34.493+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.webmvc.autoconfigure.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration
+2026-10-16T11:32:34.494+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: conventionErrorViewResolver
+2026-10-16T11:32:34.495+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.webmvc.autoconfigure.error.ErrorMvcAutoConfiguration
+2026-10-16T11:32:34.495+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: errorAttributes
+2026-10-16T11:32:34.495+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: basicErrorController
+2026-10-16T11:32:34.496+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: errorPageCustomizer
+2026-10-16T11:32:34.496+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: preserveErrorControllerTargetClassPostProcessor
+2026-10-16T11:32:34.497+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: spring.web-org.springframework.boot.autoconfigure.web.WebProperties
+2026-10-16T11:32:34.497+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.webmvc.autoconfigure.WebMvcAutoConfiguration$EnableWebMvcConfiguration
+2026-10-16T11:32:34.498+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: welcomePageHandlerMapping
+2026-10-16T11:32:34.498+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: welcomePageNotAcceptableHandlerMapping
+2026-10-16T11:32:34.498+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: localeResolver
+2026-10-16T11:32:34.499+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: flashMapManager
+2026-10-16T11:32:34.499+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: viewNameTranslator
+2026-10-16T11:32:34.500+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: mvcConversionService
+2026-10-16T11:32:34.500+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: mvcValidator
+2026-10-16T11:32:34.500+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: requestMappingHandlerMapping
+2026-10-16T11:32:34.501+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: mvcPatternParser
+2026-10-16T11:32:34.501+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: mvcUrlPathHelper
+2026-10-16T11:32:34.502+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: mvcPathMatcher
+2026-10-16T11:32:34.502+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: mvcContentNegotiationManager
+2026-10-16T11:32:34.503+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: mvcApiVersionStrategy
+2026-10-16T11:32:34.503+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: viewControllerHandlerMapping
+2026-10-16T11:32:34.503+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: beanNameHandlerMapping
+2026-10-16T11:32:34.504+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: routerFunctionMapping
+2026-10-16T11:32:34.504+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: resourceHandlerMapping
+2026-10-16T11:32:34.504+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: mvcResourceUrlProvider
+2026-10-16T11:32:34.505+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: defaultServletHandlerMapping
+2026-10-16T11:32:34.505+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: requestMappingHandlerAdapter
+2026-10-16T11:32:34.507+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: handlerFunctionAdapter
+2026-10-16T11:32:34.507+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: mvcUriComponentsContributor
+2026-10-16T11:32:34.507+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: httpRequestHandlerAdapter
+2026-10-16T11:32:34.507+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: simpleControllerHandlerAdapter
+2026-10-16T11:32:34.508+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: handlerExceptionResolver
+2026-10-16T11:32:34.508+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: mvcViewResolver
+2026-10-16T11:32:34.508+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: mvcHandlerMappingIntrospector
+2026-10-16T11:32:34.508+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.webmvc.autoconfigure.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter
+2026-10-16T11:32:34.509+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: defaultViewResolver
+2026-10-16T11:32:34.509+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: viewResolver
+2026-10-16T11:32:34.509+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: requestContextFilter
+2026-10-16T11:32:34.510+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.webmvc.autoconfigure.WebMvcAutoConfiguration
+2026-10-16T11:32:34.510+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: formContentFilter
+2026-10-16T11:32:34.510+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration
+2026-10-16T11:32:34.510+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: forceAutoProxyCreatorToUseClassProxying
+2026-10-16T11:32:34.512+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.aop.AopAutoConfiguration
+2026-10-16T11:32:34.512+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
+2026-10-16T11:32:34.512+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: applicationAvailability
+2026-10-16T11:32:34.512+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+2026-10-16T11:32:34.512+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration
+2026-10-16T11:32:34.513+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: lifecycleProcessor
+2026-10-16T11:32:34.513+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties
+2026-10-16T11:32:34.514+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+2026-10-16T11:32:34.514+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties
+2026-10-16T11:32:34.514+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration
+2026-10-16T11:32:34.514+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: fileWatcher
+2026-10-16T11:32:34.515+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: sslPropertiesSslBundleRegistrar
+2026-10-16T11:32:34.515+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: sslBundleRegistry
+2026-10-16T11:32:34.515+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: spring.ssl-org.springframework.boot.autoconfigure.ssl.SslProperties
+2026-10-16T11:32:34.516+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$ThreadPoolTaskSchedulerBuilderConfiguration
+2026-10-16T11:32:34.516+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: threadPoolTaskSchedulerBuilder
+2026-10-16T11:32:34.516+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$SimpleAsyncTaskSchedulerBuilderConfiguration
+2026-10-16T11:32:34.517+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: simpleAsyncTaskSchedulerBuilder
+2026-10-16T11:32:34.517+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration
+2026-10-16T11:32:34.517+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties
+2026-10-16T11:32:34.518+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.jackson.autoconfigure.JacksonAutoConfiguration$JsonProblemDetailsConfiguration
+2026-10-16T11:32:34.518+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: problemDetailJsonMapperBuilderCustomizer
+2026-10-16T11:32:34.518+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.jackson.autoconfigure.JacksonAutoConfiguration$JacksonJsonCustomizerConfiguration
+2026-10-16T11:32:34.518+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: standardJsonFactoryBuilderCustomizer
+2026-10-16T11:32:34.518+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: standardJsonMapperBuilderCustomizer
+2026-10-16T11:32:34.520+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: spring.jackson-org.springframework.boot.jackson.autoconfigure.JacksonProperties
+2026-10-16T11:32:34.520+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.jackson.autoconfigure.JacksonAutoConfiguration$JacksonMixinConfiguration
+2026-10-16T11:32:34.520+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: jacksonMixinModuleEntries
+2026-10-16T11:32:34.521+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: jacksonMixinModule
+2026-10-16T11:32:34.521+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.jackson.autoconfigure.JacksonAutoConfiguration
+2026-10-16T11:32:34.521+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: jsonComponentModule
+2026-10-16T11:32:34.522+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: jsonFactory
+2026-10-16T11:32:34.522+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: jsonMapperBuilder
+2026-10-16T11:32:34.522+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: jacksonJsonMapper
+2026-10-16T11:32:34.522+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.http.converter.autoconfigure.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration
+2026-10-16T11:32:34.523+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: stringHttpMessageConvertersCustomizer
+2026-10-16T11:32:34.523+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: spring.http.converters-org.springframework.boot.http.converter.autoconfigure.HttpMessageConvertersProperties
+2026-10-16T11:32:34.523+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.http.converter.autoconfigure.JacksonHttpMessageConvertersConfiguration$JacksonJsonHttpMessageConverterConfiguration
+2026-10-16T11:32:34.523+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: jacksonJsonHttpMessageConvertersCustomizer
+2026-10-16T11:32:34.524+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.http.converter.autoconfigure.JacksonHttpMessageConvertersConfiguration
+2026-10-16T11:32:34.524+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.http.converter.autoconfigure.Jackson2HttpMessageConvertersConfiguration
+2026-10-16T11:32:34.524+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.http.converter.autoconfigure.HttpMessageConvertersAutoConfiguration
+2026-10-16T11:32:34.524+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: clientConvertersCustomizer
+2026-10-16T11:32:34.525+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: serverConvertersCustomizer
+2026-10-16T11:32:34.525+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.servlet.autoconfigure.HttpEncodingAutoConfiguration
+2026-10-16T11:32:34.525+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: characterEncodingFilter
+2026-10-16T11:32:34.525+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: spring.servlet.encoding-org.springframework.boot.servlet.autoconfigure.ServletEncodingProperties
+2026-10-16T11:32:34.526+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.servlet.autoconfigure.MultipartAutoConfiguration
+2026-10-16T11:32:34.526+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: multipartConfigElement
+2026-10-16T11:32:34.526+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: multipartResolver
+2026-10-16T11:32:34.526+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: spring.servlet.multipart-org.springframework.boot.servlet.autoconfigure.MultipartProperties
+2026-10-16T11:32:34.526+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.web.server.autoconfigure.servlet.ServletWebServerConfiguration
+2026-10-16T11:32:34.528+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: servletWebServerFactoryCustomizer
+2026-10-16T11:32:34.528+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: server-org.springframework.boot.web.server.autoconfigure.ServerProperties
+2026-10-16T11:32:34.528+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: webServerFactoryCustomizerBeanPostProcessor
+2026-10-16T11:32:34.528+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: errorPageRegistrarBeanPostProcessor
+2026-10-16T11:32:34.529+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.tomcat.autoconfigure.TomcatWebServerConfiguration$TomcatWebSocketConfiguration
+2026-10-16T11:32:34.529+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: webSocketWebServerCustomizer
+2026-10-16T11:32:34.529+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.tomcat.autoconfigure.TomcatWebServerConfiguration
+2026-10-16T11:32:34.529+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: tomcatWebServerFactoryCustomizer
+2026-10-16T11:32:34.529+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.tomcat.autoconfigure.servlet.TomcatServletWebServerAutoConfiguration
+2026-10-16T11:32:34.529+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: tomcatServletWebServerFactory
+2026-10-16T11:32:34.530+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: tomcatServletWebServerFactoryCustomizer
+2026-10-16T11:32:34.530+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: server.tomcat-org.springframework.boot.tomcat.autoconfigure.TomcatServerProperties
+2026-10-16T11:32:34.530+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.aop.config.internalAutoProxyCreator
+2026-10-16T11:32:34.531+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.aop.framework.autoproxy.defaultProxyConfig
+2026-10-16T11:32:34.531+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : ========== END OF BEAN LIST ==========
+2026-10-16T11:32:34.531+05:30  INFO 14940 --- [library] [main] com.kiet.library.LibraryApplication      : Book Management REST API is Ready
+2026-10-16T11:33:38.594+05:30  INFO 14940 --- [library] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-16T11:33:38.617+05:30  INFO 14940 --- [library] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-16T11:33:48.395+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Starting LibraryApplication using Java 25.0.1 with PID 6944 (C:\Users\harsh\OneDrive\Pictures\librarynew\library\target\classes started by harsh in C:\Users\harsh\OneDrive\Pictures\librarynew)
+2026-10-16T11:33:48.402+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : No active profile set, falling back to 1 default profile: "default"
+2026-10-16T11:33:49.830+05:30  INFO 6944 --- [library] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8084 (http)
+2026-10-16T11:33:49.854+05:30  INFO 6944 --- [library] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-16T11:33:49.855+05:30  INFO 6944 --- [library] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-16T11:33:49.949+05:30  INFO 6944 --- [library] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1458 ms
+2026-10-16T11:33:50.540+05:30  INFO 6944 --- [library] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8084 (http) with context path '/'
+2026-10-16T11:33:50.549+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Started LibraryApplication in 3.016 seconds (process running for 3.68)
+2026-10-16T11:33:50.556+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Library Book Management System Started
+2026-10-16T11:33:50.557+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Loading Book Catalogue...
+2026-10-16T11:33:50.558+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Total number of beans: 147
+2026-10-16T11:33:50.559+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : ========== LIST OF ALL SPRING BEANS ==========
+2026-10-16T11:33:50.559+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2026-10-16T11:33:50.560+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2026-10-16T11:33:50.560+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.context.annotation.internalCommonAnnotationProcessor
+2026-10-16T11:33:50.561+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.context.event.internalEventListenerProcessor
+2026-10-16T11:33:50.561+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.context.event.internalEventListenerFactory
+2026-10-16T11:33:50.562+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: libraryApplication
+2026-10-16T11:33:50.562+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2026-10-16T11:33:50.562+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: bookController
+2026-10-16T11:33:50.562+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: bookService
+2026-10-16T11:33:50.564+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.AutoConfigurationPackages
+2026-10-16T11:33:50.564+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+2026-10-16T11:33:50.565+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: propertySourcesPlaceholderConfigurer
+2026-10-16T11:33:50.565+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.webmvc.autoconfigure.DispatcherServletAutoConfiguration$DispatcherServletConfiguration
+2026-10-16T11:33:50.567+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: dispatcherServlet
+2026-10-16T11:33:50.567+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor
+2026-10-16T11:33:50.567+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.context.internalConfigurationPropertiesBinder
+2026-10-16T11:33:50.568+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.context.properties.BoundConfigurationProperties
+2026-10-16T11:33:50.568+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter
+2026-10-16T11:33:50.568+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: spring.mvc-org.springframework.boot.webmvc.autoconfigure.WebMvcProperties
+2026-10-16T11:33:50.569+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.webmvc.autoconfigure.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration
+2026-10-16T11:33:50.569+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: dispatcherServletRegistration
+2026-10-16T11:33:50.570+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.webmvc.autoconfigure.DispatcherServletAutoConfiguration
+2026-10-16T11:33:50.570+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$ThreadPoolTaskExecutorBuilderConfiguration
+2026-10-16T11:33:50.571+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: threadPoolTaskExecutorBuilder
+2026-10-16T11:33:50.571+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$SimpleAsyncTaskExecutorBuilderConfiguration
+2026-10-16T11:33:50.571+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: simpleAsyncTaskExecutorBuilder
+2026-10-16T11:33:50.572+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$AsyncConfigurerConfiguration
+2026-10-16T11:33:50.572+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: applicationTaskExecutorAsyncConfigurer
+2026-10-16T11:33:50.573+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$TaskExecutorConfiguration
+2026-10-16T11:33:50.573+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: applicationTaskExecutor
+2026-10-16T11:33:50.575+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$BootstrapExecutorConfiguration
+2026-10-16T11:33:50.575+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: bootstrapExecutorAliasPostProcessor
+2026-10-16T11:33:50.575+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration
+2026-10-16T11:33:50.575+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties
+2026-10-16T11:33:50.576+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.webmvc.autoconfigure.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration
+2026-10-16T11:33:50.576+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: error
+2026-10-16T11:33:50.576+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: beanNameViewResolver
+2026-10-16T11:33:50.578+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.webmvc.autoconfigure.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration
+2026-10-16T11:33:50.578+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: conventionErrorViewResolver
+2026-10-16T11:33:50.578+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.webmvc.autoconfigure.error.ErrorMvcAutoConfiguration
+2026-10-16T11:33:50.578+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: errorAttributes
+2026-10-16T11:33:50.579+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: basicErrorController
+2026-10-16T11:33:50.579+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: errorPageCustomizer
+2026-10-16T11:33:50.579+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: preserveErrorControllerTargetClassPostProcessor
+2026-10-16T11:33:50.581+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: spring.web-org.springframework.boot.autoconfigure.web.WebProperties
+2026-10-16T11:33:50.581+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.webmvc.autoconfigure.WebMvcAutoConfiguration$EnableWebMvcConfiguration
+2026-10-16T11:33:50.581+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: welcomePageHandlerMapping
+2026-10-16T11:33:50.582+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: welcomePageNotAcceptableHandlerMapping
+2026-10-16T11:33:50.582+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: localeResolver
+2026-10-16T11:33:50.582+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: flashMapManager
+2026-10-16T11:33:50.583+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: viewNameTranslator
+2026-10-16T11:33:50.583+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: mvcConversionService
+2026-10-16T11:33:50.584+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: mvcValidator
+2026-10-16T11:33:50.584+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: requestMappingHandlerMapping
+2026-10-16T11:33:50.585+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: mvcPatternParser
+2026-10-16T11:33:50.585+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: mvcUrlPathHelper
+2026-10-16T11:33:50.585+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: mvcPathMatcher
+2026-10-16T11:33:50.586+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: mvcContentNegotiationManager
+2026-10-16T11:33:50.586+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: mvcApiVersionStrategy
+2026-10-16T11:33:50.586+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: viewControllerHandlerMapping
+2026-10-16T11:33:50.587+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: beanNameHandlerMapping
+2026-10-16T11:33:50.587+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: routerFunctionMapping
+2026-10-16T11:33:50.588+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: resourceHandlerMapping
+2026-10-16T11:33:50.588+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: mvcResourceUrlProvider
+2026-10-16T11:33:50.588+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: defaultServletHandlerMapping
+2026-10-16T11:33:50.590+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: requestMappingHandlerAdapter
+2026-10-16T11:33:50.590+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: handlerFunctionAdapter
+2026-10-16T11:33:50.590+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: mvcUriComponentsContributor
+2026-10-16T11:33:50.590+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: httpRequestHandlerAdapter
+2026-10-16T11:33:50.591+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: simpleControllerHandlerAdapter
+2026-10-16T11:33:50.591+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: handlerExceptionResolver
+2026-10-16T11:33:50.591+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: mvcViewResolver
+2026-10-16T11:33:50.592+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: mvcHandlerMappingIntrospector
+2026-10-16T11:33:50.592+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.webmvc.autoconfigure.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter
+2026-10-16T11:33:50.592+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: defaultViewResolver
+2026-10-16T11:33:50.592+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: viewResolver
+2026-10-16T11:33:50.594+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: requestContextFilter
+2026-10-16T11:33:50.594+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.webmvc.autoconfigure.WebMvcAutoConfiguration
+2026-10-16T11:33:50.594+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: formContentFilter
+2026-10-16T11:33:50.595+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration
+2026-10-16T11:33:50.595+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: forceAutoProxyCreatorToUseClassProxying
+2026-10-16T11:33:50.595+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.aop.AopAutoConfiguration
+2026-10-16T11:33:50.595+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
+2026-10-16T11:33:50.596+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: applicationAvailability
+2026-10-16T11:33:50.596+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+2026-10-16T11:33:50.598+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration
+2026-10-16T11:33:50.598+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: lifecycleProcessor
+2026-10-16T11:33:50.598+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties
+2026-10-16T11:33:50.599+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+2026-10-16T11:33:50.599+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties
+2026-10-16T11:33:50.599+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration
+2026-10-16T11:33:50.599+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: fileWatcher
+2026-10-16T11:33:50.600+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: sslPropertiesSslBundleRegistrar
+2026-10-16T11:33:50.600+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: sslBundleRegistry
+2026-10-16T11:33:50.600+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: spring.ssl-org.springframework.boot.autoconfigure.ssl.SslProperties
+2026-10-16T11:33:50.600+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$ThreadPoolTaskSchedulerBuilderConfiguration
+2026-10-16T11:33:50.601+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: threadPoolTaskSchedulerBuilder
+2026-10-16T11:33:50.601+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$SimpleAsyncTaskSchedulerBuilderConfiguration
+2026-10-16T11:33:50.601+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: simpleAsyncTaskSchedulerBuilder
+2026-10-16T11:33:50.602+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration
+2026-10-16T11:33:50.602+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties
+2026-10-16T11:33:50.602+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.jackson.autoconfigure.JacksonAutoConfiguration$JsonProblemDetailsConfiguration
+2026-10-16T11:33:50.603+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: problemDetailJsonMapperBuilderCustomizer
+2026-10-16T11:33:50.603+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.jackson.autoconfigure.JacksonAutoConfiguration$JacksonJsonCustomizerConfiguration
+2026-10-16T11:33:50.603+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: standardJsonFactoryBuilderCustomizer
+2026-10-16T11:33:50.604+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: standardJsonMapperBuilderCustomizer
+2026-10-16T11:33:50.604+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: spring.jackson-org.springframework.boot.jackson.autoconfigure.JacksonProperties
+2026-10-16T11:33:50.604+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.jackson.autoconfigure.JacksonAutoConfiguration$JacksonMixinConfiguration
+2026-10-16T11:33:50.604+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: jacksonMixinModuleEntries
+2026-10-16T11:33:50.605+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: jacksonMixinModule
+2026-10-16T11:33:50.605+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.jackson.autoconfigure.JacksonAutoConfiguration
+2026-10-16T11:33:50.605+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: jsonComponentModule
+2026-10-16T11:33:50.605+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: jsonFactory
+2026-10-16T11:33:50.605+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: jsonMapperBuilder
+2026-10-16T11:33:50.606+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: jacksonJsonMapper
+2026-10-16T11:33:50.606+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.http.converter.autoconfigure.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration
+2026-10-16T11:33:50.607+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: stringHttpMessageConvertersCustomizer
+2026-10-16T11:33:50.607+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: spring.http.converters-org.springframework.boot.http.converter.autoconfigure.HttpMessageConvertersProperties
+2026-10-16T11:33:50.607+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.http.converter.autoconfigure.JacksonHttpMessageConvertersConfiguration$JacksonJsonHttpMessageConverterConfiguration
+2026-10-16T11:33:50.609+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: jacksonJsonHttpMessageConvertersCustomizer
+2026-10-16T11:33:50.609+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.http.converter.autoconfigure.JacksonHttpMessageConvertersConfiguration
+2026-10-16T11:33:50.609+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.http.converter.autoconfigure.Jackson2HttpMessageConvertersConfiguration
+2026-10-16T11:33:50.609+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.http.converter.autoconfigure.HttpMessageConvertersAutoConfiguration
+2026-10-16T11:33:50.609+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: clientConvertersCustomizer
+2026-10-16T11:33:50.609+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: serverConvertersCustomizer
+2026-10-16T11:33:50.610+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.servlet.autoconfigure.HttpEncodingAutoConfiguration
+2026-10-16T11:33:50.610+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: characterEncodingFilter
+2026-10-16T11:33:50.610+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: spring.servlet.encoding-org.springframework.boot.servlet.autoconfigure.ServletEncodingProperties
+2026-10-16T11:33:50.610+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.servlet.autoconfigure.MultipartAutoConfiguration
+2026-10-16T11:33:50.611+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: multipartConfigElement
+2026-10-16T11:33:50.611+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: multipartResolver
+2026-10-16T11:33:50.611+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: spring.servlet.multipart-org.springframework.boot.servlet.autoconfigure.MultipartProperties
+2026-10-16T11:33:50.612+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.web.server.autoconfigure.servlet.ServletWebServerConfiguration
+2026-10-16T11:33:50.612+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: servletWebServerFactoryCustomizer
+2026-10-16T11:33:50.612+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: server-org.springframework.boot.web.server.autoconfigure.ServerProperties
+2026-10-16T11:33:50.612+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: webServerFactoryCustomizerBeanPostProcessor
+2026-10-16T11:33:50.614+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: errorPageRegistrarBeanPostProcessor
+2026-10-16T11:33:50.614+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.tomcat.autoconfigure.TomcatWebServerConfiguration$TomcatWebSocketConfiguration
+2026-10-16T11:33:50.614+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: webSocketWebServerCustomizer
+2026-10-16T11:33:50.615+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.tomcat.autoconfigure.TomcatWebServerConfiguration
+2026-10-16T11:33:50.615+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: tomcatWebServerFactoryCustomizer
+2026-10-16T11:33:50.615+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.boot.tomcat.autoconfigure.servlet.TomcatServletWebServerAutoConfiguration
+2026-10-16T11:33:50.616+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: tomcatServletWebServerFactory
+2026-10-16T11:33:50.616+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: tomcatServletWebServerFactoryCustomizer
+2026-10-16T11:33:50.617+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: server.tomcat-org.springframework.boot.tomcat.autoconfigure.TomcatServerProperties
+2026-10-16T11:33:50.617+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.aop.config.internalAutoProxyCreator
+2026-10-16T11:33:50.617+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Bean name: org.springframework.aop.framework.autoproxy.defaultProxyConfig
+2026-10-16T11:33:50.617+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : ========== END OF BEAN LIST ==========
+2026-10-16T11:33:50.618+05:30  INFO 6944 --- [library] [main] com.kiet.library.LibraryApplication      : Book Management REST API is Ready
